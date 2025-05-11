@@ -1,5 +1,6 @@
 {
-    "build": "cd backend/CafeApp.Api && dotnet restore && dotnet publish -c Release -o out",
+    "build": {
+        "command": "cd backend/CafeApp.Api/CafeApp.Api && dotnet restore && dotnet publish -c Release -o out"
+    },
     "start": "cd backend/CafeApp.Api && dotnet out/CafeApp.Api.dll"
-  }
-  
+}
