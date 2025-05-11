@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "+U5WyjkEh7dmCoi3RLvA0Q8gtoVOuEJHGfO0FwJ1Jws=",
+  "Source": "CafeApp.Api",
+  "BasePath": "_content/CafeApp.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

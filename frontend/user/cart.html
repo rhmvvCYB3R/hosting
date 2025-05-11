@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart | MYK Café</title>
+  <link rel="stylesheet" href="/styles/user/cart.css"> 
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="/user/index.html" class="navbar-brand">MYK Cafe</a>
+    <ul class="navbar-menu">
+        <li class="navbar-item"><a href="/user/cart.html" class="navbar-link">Cart</a></li>
+        <li class="navbar-item"><a href="/menu.html" class="navbar-link">Menu</a></li>
+        <li class="navbar-item"><a href="/reservation.html" class="navbar-link">Reservation</a></li>
+        <li class="navbar-item"><a href="/restaurants" class="navbar-link">Restaurants</a></li>
+        <li class="navbar-item"><a href="/user/about.html" class="navbar-link">About</a></li>
+        <li class="navbar-item"><a href="/user/login.html" class="navbar-link">Login</a></li>
+    </ul>
+</nav>
+
+
+  <!-- Cart Content -->
+  <div class="cart-container">
+    <h2>Your Cart</h2>
+    <div class="cart-items">
+      <div class="cart-item">
+        <img src="https://via.placeholder.com/100" alt="Product">
+        <div class="item-details">
+          <h3>Product Name</h3>
+          <p>Price: $12.99</p>
+          <p>Quantity: 2</p>
+        </div>
+        <button class="remove-item">Remove</button>
+      </div>
+      <div class="cart-item">
+        <img src="https://via.placeholder.com/100" alt="Product">
+        <div class="item-details">
+          <h3>Product Name</h3>
+          <p>Price: $8.99</p>
+          <p>Quantity: 1</p>
+        </div>
+        <button class="remove-item">Remove</button>
+      </div>
+    </div>
+
+    <div class="cart-summary">
+      <p>Total: $34.97</p>
+      <button class="checkout-button">Proceed to Checkout</button>
+    </div>
+
+    <div class="delivery-options">
+      <h3>Select Delivery Option</h3>
+      <div class="option">
+        <input type="radio" id="delivery" name="delivery" value="delivery">
+        <label for="delivery">Delivery</label>
+      </div>
+      <div class="option">
+        <input type="radio" id="pickup" name="delivery" value="pickup">
+        <label for="pickup">Pick up</label>
+      </div>
+      <button class="confirm-option">Confirm Option</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">CafeNet</div>
+      <ul class="footer-menu">
+        <li><a href="/user/privacy&policy.html" class="footer-link">Privacy Policy</a></li>
+        <li><a href="/user/terms&conditions.html" class="footer-link">Terms of Service</a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 MYK-CAFE. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>

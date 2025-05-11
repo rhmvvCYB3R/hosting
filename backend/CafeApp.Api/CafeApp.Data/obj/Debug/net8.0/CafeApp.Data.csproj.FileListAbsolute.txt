@@ -1,0 +1,15 @@
+/home/rhmvv/CafeApp/backend/CafeApp.Api/CafeApp.Data/bin/Debug/net8.0/CafeApp.Data.deps.json
+/home/rhmvv/CafeApp/backend/CafeApp.Api/CafeApp.Data/bin/Debug/net8.0/CafeApp.Data.runtimeconfig.json
+/home/rhmvv/CafeApp/backend/CafeApp.Api/CafeApp.Data/bin/Debug/net8.0/CafeApp.Data.dll
+/home/rhmvv/CafeApp/backend/CafeApp.Api/CafeApp.Data/bin/Debug/net8.0/CafeApp.Data.pdb
+/home/rhmvv/CafeApp/backend/CafeApp.Api/CafeApp.Data/obj/Debug/net8.0/CafeApp.Data.csproj.AssemblyReference.cache
+/home/rhmvv/CafeApp/backend/CafeApp.Api/CafeApp.Data/obj/Debug/net8.0/CafeApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+/home/rhmvv/CafeApp/backend/CafeApp.Api/CafeApp.Data/obj/Debug/net8.0/CafeApp.Data.AssemblyInfoInputs.cache
+/home/rhmvv/CafeApp/backend/CafeApp.Api/CafeApp.Data/obj/Debug/net8.0/CafeApp.Data.AssemblyInfo.cs
+/home/rhmvv/CafeApp/backend/CafeApp.Api/CafeApp.Data/obj/Debug/net8.0/CafeApp.Data.csproj.CoreCompileInputs.cache
+/home/rhmvv/CafeApp/backend/CafeApp.Api/CafeApp.Data/obj/Debug/net8.0/CafeApp.Data.sourcelink.json
+/home/rhmvv/CafeApp/backend/CafeApp.Api/CafeApp.Data/obj/Debug/net8.0/CafeApp.Data.dll
+/home/rhmvv/CafeApp/backend/CafeApp.Api/CafeApp.Data/obj/Debug/net8.0/refint/CafeApp.Data.dll
+/home/rhmvv/CafeApp/backend/CafeApp.Api/CafeApp.Data/obj/Debug/net8.0/CafeApp.Data.pdb
+/home/rhmvv/CafeApp/backend/CafeApp.Api/CafeApp.Data/obj/Debug/net8.0/CafeApp.Data.genruntimeconfig.cache
+/home/rhmvv/CafeApp/backend/CafeApp.Api/CafeApp.Data/obj/Debug/net8.0/ref/CafeApp.Data.dll

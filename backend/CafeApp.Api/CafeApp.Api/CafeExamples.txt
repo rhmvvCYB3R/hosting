@@ -1,0 +1,106 @@
+Examples Cafes:
+
+{
+  "street": "Elm Street",
+  "city": "Springfield",
+  "rating": 4,
+  "openingTime": "07:30:00",
+  "closingTime": "22:00:00",
+  "latitude": 40.748817,
+  "longitude": -73.985428
+}
+
+{
+  "street": "Maple Avenue",
+  "city": "Greenwich",
+  "rating": 5,
+  "openingTime": "09:00:00",
+  "closingTime": "21:00:00",
+  "latitude": 51.4769,
+  "longitude": -0.0045
+}
+
+{
+  "street": "Ocean Drive",
+  "city": "Miami Beach",
+  "rating": 3,
+  "openingTime": "10:00:00",
+  "closingTime": "23:30:00",
+  "latitude": 25.7617,
+  "longitude": -80.1918
+}
+
+{
+  "street": "Sunset Boulevard",
+  "city": "Los Angeles",
+  "rating": 4,
+  "openingTime": "08:00:00",
+  "closingTime": "20:00:00",
+  "latitude": 34.0522,
+  "longitude": -118.2437
+}
+
+{
+  "street": "Broadway Street",
+  "city": "New York",
+  "rating": 5,
+  "openingTime": "06:00:00",
+  "closingTime": "22:00:00",
+  "latitude": 40.7128,
+  "longitude": -74.0060
+}
+
+
+{
+  "street": "King's Road",
+  "city": "London",
+  "rating": 3,
+  "openingTime": "07:00:00",
+  "closingTime": "20:30:00",
+  "latitude": 51.5074,
+  "longitude": -0.1278
+}
+
+
+{
+  "street": "Pine Street",
+  "city": "Seattle",
+  "rating": 2,
+  "openingTime": "08:30:00",
+  "closingTime": "22:30:00",
+  "latitude": 47.6097,
+  "longitude": -122.3331
+}
+
+
+{
+  "street": "Park Avenue",
+  "city": "Chicago",
+  "rating": 5,
+  "openingTime": "09:00:00",
+  "closingTime": "19:00:00",
+  "latitude": 41.8781,
+  "longitude": -87.6298
+}
+
+
+{
+  "street": "5th Avenue",
+  "city": "New York",
+  "rating": 4,
+  "openingTime": "10:00:00",
+  "closingTime": "23:00:00",
+  "latitude": 40.7128,
+  "longitude": -74.0060
+}
+
+
+{
+  "street": "Victory Lane",
+  "city": "Los Angeles",
+  "rating": 3,
+  "openingTime": "11:00:00",
+  "closingTime": "22:00:00",
+  "latitude": 34.0522,
+  "longitude": -118.2437
+}

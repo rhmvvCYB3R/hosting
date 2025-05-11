@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MYK CAFE</title>
+    <link rel="stylesheet" href="/styles/user/index.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="/user/index.html" class="navbar-brand">MYK Cafe</a>
+        <ul class="navbar-menu">
+            <li class="navbar-item"><a href="/user/cart.html" class="navbar-link">Cart</a></li>
+            <li class="navbar-item"><a href="/menu.html" class="navbar-link">Menu</a></li>
+            <li class="navbar-item"><a href="/reservation.html" class="navbar-link">Reservation</a></li>
+            <li class="navbar-item"><a href="/restaurants" class="navbar-link">Restaurants</a></li>
+            <li class="navbar-item"><a href="/user/about.html" class="navbar-link">About</a></li>
+            <li class="navbar-item"><a href="/user/login.html" class="navbar-link">Login</a></li>
+        </ul>
+    </nav>
+
+    <!-- Центр с фотографиями еды -->
+    <section class="hero-section">
+        <div class="hero-image">
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/170302153529-garlic-crab.jpg?q=w_2048,h_1365,x_0,y_0,c_fill" alt="Delicious Food 1">
+            <h2>Delicious Dishes</h2>
+        </div>
+        <div class="hero-image">
+            <img src="https://cdn.prod.website-files.com/645e8dc9057b22329a6891f8/6525923ffee726e2a6cbda93_fast-fresh-convenient.jpg" alt="Delicious Food 2">
+            <h2>Fresh Ingredients</h2>
+        </div>
+        <div class="hero-image">
+            <img src="https://media.radissonhotels.net/image/marketing-campaigns-emea/promotional/16256-125160-f83447693_3xl.jpg?impolicy=HomeHero" alt="Delicious Food 3">
+            <h2>Gourmet Experience</h2>
+        </div>
+    </section>
+
+    <!-- Карточки ресторанов -->
+    <section class="restaurant-cards">
+        <h2>Our Restaurants</h2>
+        <div id="restaurant-list" class="cards-container">
+            <!-- Карточки ресторанов будут добавляться динамически -->
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">CafeNet</div>
+            <ul class="footer-menu">
+                <li><a href="/user/privacy&policy.html" class="footer-link">Privacy Policy</a></li>
+                <li><a href="/user/terms&conditions.html" class="footer-link">Terms of Service</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025 MYK-CAFE. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="/scripts/forINDEX.js"></script> <!-- Скрипт для загрузки ресторанов -->
+</body>
+</html>

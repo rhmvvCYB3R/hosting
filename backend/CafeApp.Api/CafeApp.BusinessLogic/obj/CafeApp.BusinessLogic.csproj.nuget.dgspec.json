@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/rhmvv/CafeApp/backend/CafeApp.Api/CafeApp.BusinessLogic/CafeApp.BusinessLogic.csproj": {}
+  },
+  "projects": {
+    "/home/rhmvv/CafeApp/backend/CafeApp.Api/CafeApp.BusinessLogic/CafeApp.BusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rhmvv/CafeApp/backend/CafeApp.Api/CafeApp.BusinessLogic/CafeApp.BusinessLogic.csproj",
+        "projectName": "CafeApp.BusinessLogic",
+        "projectPath": "/home/rhmvv/CafeApp/backend/CafeApp.Api/CafeApp.BusinessLogic/CafeApp.BusinessLogic.csproj",
+        "packagesPath": "/home/rhmvv/.nuget/packages/",
+        "outputPath": "/home/rhmvv/CafeApp/backend/CafeApp.Api/CafeApp.BusinessLogic/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rhmvv/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/rhmvv/CafeApp/backend/CafeApp.Api/CafeApp.Data/CafeApp.Data.csproj": {
+                "projectPath": "/home/rhmvv/CafeApp/backend/CafeApp.Api/CafeApp.Data/CafeApp.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.115/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/rhmvv/CafeApp/backend/CafeApp.Api/CafeApp.Data/CafeApp.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rhmvv/CafeApp/backend/CafeApp.Api/CafeApp.Data/CafeApp.Data.csproj",
+        "projectName": "CafeApp.Data",
+        "projectPath": "/home/rhmvv/CafeApp/backend/CafeApp.Api/CafeApp.Data/CafeApp.Data.csproj",
+        "packagesPath": "/home/rhmvv/.nuget/packages/",
+        "outputPath": "/home/rhmvv/CafeApp/backend/CafeApp.Api/CafeApp.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rhmvv/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.14, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.115/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

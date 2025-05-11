@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cafe Network</title>
+  <link rel="stylesheet" href="/styles/admin/admin-nav-foot.css" />
+  <link rel="stylesheet" href="/styles/admin/admin-restaurants.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="/favicon.ico" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">MYK CAFE Admin</div>
+      <ul class="nav-links">
+        <li><a href="/admin/admin-restaurants.html">Restaurants</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Welcome to MYK</h1>
+        <p>ADMIN PANEL</p>
+      </div>
+    </section>
+
+    <section id="restaurants" class="section">
+      <h2>Restaurants</h2>
+      <div class="search-bar">
+        <input type="text" placeholder="Search by street name..." id="search-restaurant" />
+        <button id="search-btn">Search</button>
+      </div>
+
+      <div class="actions">
+        <button class="add-btn" id="open-modal">Add Restaurant</button>
+        
+      </div>
+
+      <div class="list" id="restaurant-list"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 CafeNet. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Modal for adding a restaurant -->
+  <div id="modal" class="modal">
+    <div class="modal-overlay" id="close-modal"></div>
+    <div class="modal-window">
+      <button class="modal-close" id="modal-close">&times;</button>
+      <h3>Add Cafe</h3>
+      <form id="cafe-form">
+        
+        <label for="cafe-opening">Opening Time</label>
+        <input type="time" name="cafe-opening" required placeholder="HH:mm">
+        
+        <label for="cafe-closing">Closing Time</label>
+        <input type="time" name="cafe-closing" required placeholder="HH:mm">
+        
+        <label for="cafe-rating">Rating</label>
+        <input type="number" name="cafe-rating" step="0.1" required>
+        
+        <label for="cafe-street">Street</label>
+        <input type="text" name="cafe-street" required>
+        
+        <label for="cafe-city">City</label>
+        <input type="text" name="cafe-city" required>
+        
+        <label for="cafe-lat">Latitude</label>
+        <input type="number" name="cafe-lat" step="any" required>
+        
+        <label for="cafe-lon">Longitude</label>
+        <input type="number" name="cafe-lon" step="any" required>
+
+        <button type="button" id="modal-cancel">Cancel</button>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="/scripts/admin-restaurants.js"></script>
+</body>
+</html>
